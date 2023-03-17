@@ -7,6 +7,7 @@ pipeline {
             }
             steps {
                 sh './mvnw clean package'
+                sh './java -version'
             }
         }
     }
